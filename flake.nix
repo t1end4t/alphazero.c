@@ -41,6 +41,8 @@
             modules = [
               {
                 packages = with pkgs; [
+                  clang-tools # contain clangd
+                  bear
                 ];
 
                 # https://devenv.sh/reference/options/

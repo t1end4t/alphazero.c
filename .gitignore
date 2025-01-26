@@ -56,3 +56,7 @@ dkms.conf
 .direnv/
 .pre-commit-config.yaml
 
+# C project using bear
+.cache/
+build/
+compile_commands.json
